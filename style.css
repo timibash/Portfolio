@@ -370,6 +370,35 @@ section .title::after{
 .skills-content .right .js::before{
     width: 40%;
 }
+/*Links section*/
+.Link {
+    background: black;
+
+}
+.Link .link-content{
+    width: calc(33% - 20px);
+    background: #222;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    margin: 10px;
+}
+.Link h2{
+    font-size: xx-large;
+    padding-bottom: 70px;
+    text-align: center;
+    color: #f1f1f1;
+}
+.Link .link-content .texts{
+    font-size: 25px;
+    font-weight: 500;
+    color: crimson;
+    text-align: center;
+
+}
+
 
 /* contact section styling */
 .contact{
