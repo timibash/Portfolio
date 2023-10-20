@@ -375,9 +375,10 @@ section .title::after{
     background: black;
 
 }
-.Link .link-content{
+.Link .link-content .card{
     width: calc(33% - 20px);
     background: #222;
+    text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
@@ -395,7 +396,6 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     color: crimson;
-   align-items: center;
 
 }
 
