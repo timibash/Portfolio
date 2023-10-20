@@ -401,6 +401,12 @@ section .title::after{
 .Link .link-content :hover{
     background: crimson;
 }
+.Link .link-content .box{
+    transition: all 0.3s ease;
+}
+.Link .link-content:hover .box{
+    transform: scale(1.05);
+}
 
 
 
