@@ -384,6 +384,7 @@ section .title::after{
     transition: all 0.3s ease;
     display: inline-flex;
     margin: 10px;
+    text-align: center;
 }
 .Link h2{
     font-size: xx-large;
@@ -395,9 +396,12 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     color: crimson;
-    text-align: center;
-
+    margin: 10px 0 7px 0;
 }
+.Link .link-content :hover{
+    background: crimson;
+}
+
 
 
 /* contact section styling */
