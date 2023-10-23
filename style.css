@@ -375,7 +375,24 @@ section .title::after{
     background: black;
 
 }
-.Link .link-content{
+.links {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #414141;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.links h2 {
+    font-size: xx-large;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+/* Style for the individual links */
+.link-content {
     width: calc(33% - 20px);
     background: #222;
     border-radius: 6px;
@@ -384,29 +401,15 @@ section .title::after{
     transition: all 0.3s ease;
     display: inline-flex;
     margin: 10px;
-    text-align: center;
 }
-.Link h2{
-    font-size: xx-large;
-    padding-bottom: 70px;
-    text-align: center;
-    color: #f1f1f1;
-}
-.Link .link-content .texts{
+
+.link-content .text-link {
     font-size: 25px;
     font-weight: 500;
     color: crimson;
-    margin: 10px 0 7px 0;
+    text-align: center;
 }
-.Link .link-content :hover{
-    background: crimson;
-}
-.Link .link-content .box{
-    transition: all 0.3s ease;
-}
-.Link .link-content:hover .box{
-    transform: scale(1.05);
-}
+
 
 
 
@@ -603,6 +606,20 @@ section .title::after{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .links {
+        padding: 10px;
+    }
+
+    .link-content {
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px 10px;
+    }
+
+    .links h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
     }
 }
 
