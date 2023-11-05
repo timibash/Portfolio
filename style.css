@@ -371,46 +371,50 @@ section .title::after{
     width: 40%;
 }
 /*Links section*/
-.Link {
-    background: black;
-
+.services, .teams{
+    color:#fff;
+    background: #111;
 }
-.links {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #414141;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
+.services .title::before,
+.teams .title::before{
+    background: #fff;
 }
-
-.links h2 {
-    font-size: xx-large;
-    padding-bottom: 20px;
-    text-align: center;
-    color: #f1f1f1;
+.services .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what i provide";
 }
-
-/* Style for the individual links */
-.link-content {
+.services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
+    text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-    display: inline-flex;
-    margin: 10px;
 }
-
-.link-content .text-link {
+.services .serv-content .card:hover{
+    background: crimson;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card {
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover {
+    color: #fff;
+}
+.services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    color: crimson;
-    text-align: center;
+    margin: 10px 0 7px 0;
 }
-
-
 
 
 /* contact section styling */
